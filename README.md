@@ -52,7 +52,7 @@ This app will also have several scripts, including:
 
 ### Timeline
 
-**Day 1 and 2**: Have landing page ready and styled to be welcoming to the visitor. Also, have project skeleton ready with necessary packages installed.
+**Day 1**: Have landing page ready and styled to be welcoming to the visitor. Also, have project skeleton ready with necessary packages installed.
 
 + Begin creating `index.html` file, including form
 + Have Canvas rendered and styled
@@ -60,10 +60,20 @@ This app will also have several scripts, including:
 + Choose inviting fonts and color schemes
 + Begin designing color selector
 
-**Day 3 and 4**: Begin working on scripts and test input logic. Also research on how to set a sound and display colors on certain time.
+**Day 2**: Begin adding selected tempo and time signature logic to intervals, and render the selected colors based on the result values.
++ Test formulas for setting bpm in ms for `setInterval`
++ Make sure colors stay in sync
++ Begin forms and input value collection
+
+**Day 3**: Have page ready to take user input and display appropriate colors. The app should also be rendering the colors in time.
++ Finish forms for user input
++ Kave key bindings working
++ Begin logic for suggested complimentary colors
+
+**Day 4**: Begin working on scripts and test input logic. Also research on how to set a sound and display colors on certain time.
 
 + Script form input logic
 + Test return values from `color_wheel.js` and `options.js` to `visual.js`
-+ Begin logic for suggested complimentary colors.
 + Select default colors
 + Enter keys needed to change tempo and other functionalities
++ Style to make app attractive and inviting
