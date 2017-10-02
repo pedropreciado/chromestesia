@@ -28,7 +28,7 @@ Chromestesia will be a minimally styled, single page app. Any necessary elements
 
 ![](https://raw.githubusercontent.com/pedropreciado/chromestesia/master/docs/wireframes/form.png)
 
-In the options modal, the user will be able to select the tempo incrementally, and select custom time signature. Squares of random colors will then be displayed, and the amount will be based on the number of beats the user selected. The user will then select colors from the color wheel, and compliments of each color selected will be displayed on the right. The user will then press the button to begin a count off, and can pause/play the metronome using the space bar.
+In the options modal, the user will be able to select the tempo incrementally and select a custom time signature. Squares of random colors will be displayed based on the number of beats the user selected. Colors can then be selected from a color wheel and compliments of each of those colors will be displayed on the right. The user will then press a button to begin a count off and will be able to pause/play the metronome using the space bar.
 
 ### Architecture and Technologies
 
