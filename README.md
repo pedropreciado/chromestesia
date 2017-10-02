@@ -2,13 +2,14 @@
 
 ### Background and Overview
 
-Chromestesia is a songwriting tool that uses visuals and audio to help keep musicians in time. A traditional metronome only uses audible beats to help the musician keep tempo, but what sets this tool apart is the use of visuals to enhance the songwriting experience.
+Chromestesia is a songwriting tool, inspired by the metronome, that uses audio and visuals to help musicians maintain timing and tempo. Traditionally, a metronome uses only audible beats to assist in staying on tempo, so what sets this tool apart is the use of visuals to enhance the songwriting experience.
 
 [Chromesthesia](https://en.wikipedia.org/wiki/Chromesthesia) is a type of synesthesia is which heard sounds automatically and involuntarily evoke an experience of color.
 
-Users will have the ability to select a color or colors of their choosing, and the selected set of colors will be rendered in time with the tempo and time signature they selected.
+Users will have the ability to select a color or set of colors which will then be rendered in time with the tempo and time signature they selected.
 
-Also, users can be given complimentary colors based on the color harmonies.
+Complimentary colors will also be given to the user based on the color harmonies.
+
 
 ### Functionality & MVP
 
@@ -18,7 +19,7 @@ With Chromestesia, users will be able to:
 + Select desired tempo
 + Select a time signature
 + Save color schemes in RGB format
-+ Present options an a visually appealing way using modals
++ Present options in an a visually appealing way using modals
 + Use keyboard shortcuts to quickly change tempo, start/stop, etc.
 
 ### Wireframes
