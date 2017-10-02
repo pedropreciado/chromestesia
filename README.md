@@ -25,7 +25,9 @@ With Chromestesia, users will be able to:
 
 Chromestesia will be a minimally styled, single page app. Any necessary elements needed to be displayed will be shown as a modal. The metronome will be heard with a subtle click and the selected colors will be displayed in the full dimensions of the browser window. This app is meant to be used in full screen. Using a key press, the modal below will be displayed.
 
-![](./docs/wireframes/form.png)
+![](https://raw.githubusercontent.com/pedropreciado/chromestesia/master/docs/wireframes/form.png)
+
+In the options modal, the user will be able to select the tempo incrementally, and select custom time signature. Squares of random colors will then be displayed, and the amount will be based on the number of beats the user selected. The user will then select colors from the color wheel, and compliments of each color selected will be displayed on the right. The user will then press the button to begin a count off, and can pause/play the metronome using the space bar.
 
 ### Architecture and Technologies
 
