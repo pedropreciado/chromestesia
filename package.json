@@ -1,0 +1,27 @@
+{
+  "name": "chromestesia",
+  "version": "1.0.0",
+  "description": "### Background and Overview",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "jquery-wheelcolorpicker": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedropreciado/chromestesia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedropreciado/chromestesia/issues"
+  },
+  "homepage": "https://github.com/pedropreciado/chromestesia#readme"
+}
