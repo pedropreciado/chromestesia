@@ -23,7 +23,7 @@ With Chromestesia, users will be able to:
 
 ### Wireframes
 
-Chromestesia will be a minimally styled, single page app. Any necessary elements needed to be displayed will be shown as a modal. The metronome will be heard with a subtle click and the selected colors will be displayed in the full dimensions of the browser window. This app is meant to be used in full screen. Using a key press, the modal below will be displayed.
+Chromestesia will be a minimally styled, single page app. Any necessary elements to be displayed will be shown as a modal. The metronome will be heard with a subtle click and the selected colors will be displayed in the full dimensions of the browser window. This app is meant to be used in full screen. Using a key press, the modal below will be displayed.
 
 ![](https://raw.githubusercontent.com/pedropreciado/chromestesia/master/docs/wireframes/form.png)
 
