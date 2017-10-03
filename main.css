@@ -48,11 +48,14 @@ form {
 }
 
 button {
-  float: left;
+  margin-top: 100%;
+  float: right;
 }
 
 #ColorInput1, #ColorInput2, #ColorInput3, #ColorInput4 {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
   height: 100px;
   width: 100px;
 }
@@ -64,6 +67,7 @@ button {
 #tempo {
   height: 5%;
   width: 8%;
+  display: block;
 }
 
 h1 {
