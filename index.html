@@ -6,23 +6,45 @@
 
     <link rel="stylesheet" type="text/css" href="./main.css">
     <link type="text/css" rel="stylesheet" href="./wheelcolorpicker.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
 
-    <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="jquery.wheelcolorpicker.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery-wheelcolorpicker/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery-wheelcolorpicker/jquery.wheelcolorpicker.js"></script>
 
   </head>
   <body>
     <div class="options-form" id="modal">
       <div class="modal-content">
         <form class="form">
-          <h1>wut.<h2>
-             <input type="text" name="color" id="ColorInput" value="#ff0000" data-wheelcolorpicker />
-             <button type="button">Beep!</button>
+          <h1>chromestesia</h1>
+            tempo: <input type="number" value="120" id="tempo" />
+          <div class="color-selectors">
+            <label>
+            first color:
+            <input type="text" name="color" id="ColorInput1" value="#ff0000" data-wheelcolorpicker />
+          </label>
+            <label>
+            second color:
+            <input type="text" name="color" id="ColorInput2" value="#ff0000" data-wheelcolorpicker />
+          </label>
+            <label>
+            third color:
+            <input type="text" name="color" id="ColorInput3" value="#ff0000" data-wheelcolorpicker />
+          </label>
+            <label>
+            fourth color:
+            <input type="text" name="color" id="ColorInput4" value="#ff0000" data-wheelcolorpicker />
+          </label>
+
+           </div>
+             <button type="submit" id="submit-form">submit</button>
+
+
+             <button id="stop">stop</button>
           </form>
         </div>
       </div>
-    <canvas id="canvas">
       <script type="application/javascript" src="./lib/visual.js"></script>
-      <button id="Open Modal">Options</button>
+      <canvas id="canvas">
   </body>
 </html>

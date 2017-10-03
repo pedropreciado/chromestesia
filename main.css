@@ -6,6 +6,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 canvas {
@@ -13,12 +14,58 @@ canvas {
 }
 
 form {
-  position: absolute;
-  background-color: white;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, .6);
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .options-form {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.modal-content {
+  height: 600px;
+  width: 600px;
+}
+
+.color-selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-flow: column;
+  float: right;
+  height: 100%;
+  width: 50%;
+
+}
+
+button {
+  float: left;
+}
+
+#ColorInput1, #ColorInput2, #ColorInput3, #ColorInput4 {
+  font-size: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+#ColorInput1:hover, #ColorInput2:hover, #ColorInput3:hover, #ColorInput4:hover {
+  cursor: pointer;
+}
+
+#tempo {
+  height: 5%;
+  width: 8%;
+}
+
+h1 {
+  text-align: center;
 }
