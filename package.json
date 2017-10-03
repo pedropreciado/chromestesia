@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
+    "intro.js": "^2.8.0-alpha.1",
     "jquery-wheelcolorpicker": "^3.0.4"
   },
   "devDependencies": {},

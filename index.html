@@ -6,7 +6,9 @@
 
     <link rel="stylesheet" type="text/css" href="./main.css">
     <link type="text/css" rel="stylesheet" href="./wheelcolorpicker.css" />
+    <link type="text/css" rel="stylesheet" href="./node_modules/intro.js/introjs.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+
 
     <script type="text/javascript" src="./node_modules/jquery-wheelcolorpicker/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="./node_modules/jquery-wheelcolorpicker/jquery.wheelcolorpicker.js"></script>
@@ -16,10 +18,9 @@
     <div class="options-form" id="modal">
       <div class="modal-content">
         <form class="form">
-          <h1>chromestesia</h1>
-          <button class="about">about</about>
-            tempo: <input type="number" value="120" id="tempo" />
-          <div class="color-selectors">
+          <h1 data-step="1" data-intro="Chromestesia is a songwriting tool, inspired by the metronome, that uses audio and visuals to help musicians maintain timing and tempo.">chromestesia</h1>
+            tempo: <input data-step="2" data-intro="Select tempo using the incrementor." type="number" value="120" id="tempo" /> bpm
+          <div class="color-selectors" data-step="3" data-intro="Select a color for every beat.">
 
             <input type="text" name="color" id="ColorInput1" value="first color" data-wheelcolorpicker />
             <input type="text" name="color" id="ColorInput2" value="second color" data-wheelcolorpicker />
@@ -27,9 +28,15 @@
             <input type="text" name="color" id="ColorInput4" value="fourth color" data-wheelcolorpicker />
 
            </div>
+           <button class="about">about</button>
            <button id="stop">stop</button>
              <button type="submit" id="submit-form">submit</button>
-
+             <script src="./node_modules/intro.js/intro.js"></script>
+           <script>
+             $("#enterIntro").click(function() {
+               introJs().start();
+             });
+           </script>
 
           </form>
         </div>
