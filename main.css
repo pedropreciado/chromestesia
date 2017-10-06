@@ -42,11 +42,19 @@ form {
   width: 600px;
 }
 
+.time-sig {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .color-selectors {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row;
+  flex-wrap: wrap;
   height: 80%;
   width: 100%;
 }
@@ -82,10 +90,10 @@ button:hover {
   transition: .2s;
   border-radius: 0px;
   cursor: pointer;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-#ColorInput1, #ColorInput2, #ColorInput3, #ColorInput4 {
+/*#ColorInput1, #ColorInput2, #ColorInput3, #ColorInput4 {
   font-size: 20px;
   font-weight: 100;
   text-align: center;
@@ -96,7 +104,7 @@ button:hover {
 
 #ColorInput1:hover, #ColorInput2:hover, #ColorInput3:hover, #ColorInput4:hover {
   cursor: pointer;
-}
+}*/
 
 /*.ColorInput:hover {
   cursor: pointer;
@@ -117,4 +125,14 @@ h1 {
 
 .colorInputs {
   display: none;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: .6s;
+}
+
+.colorInputs:hover {
+  cursor: pointer;
 }

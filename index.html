@@ -20,33 +20,36 @@
         <form class="form">
           <h1 data-step="1" data-intro="Chromestesia is a songwriting tool, based on the metronome, that uses audio and visuals to help musicians maintain timing and tempo.">chromestesia</h1>
             tempo: <input data-step="2" data-intro="Select tempo using the incrementor." type="number" value="120" id="tempo" /> bpm
-
-            time signature: <input id="time-sig" type="number" value="4" data-step="3" data-intro="Select the number of beats per measure"> / 4
-            <button id="time-sig-submit">choose colors</button>
-          <div class="color-selectors" data-step="3" data-intro="Select a color for every beat. Colors are displayed in their hexadecimal values.">
+            <div class="time-sig">
+            time signature: <input id="time-sig" type="number" value="4" data-step="3" data-intro="Select the number of beats per measure (max 7)"> / 4
+          </div>
+            <button id="time-sig-submit">select colors</button>
+          <div class="color-selectors" data-step="4" data-intro="Select a color for every beat. Colors are displayed in their hexadecimal values.">
 
             <input type="text" class="colorInputs" name="color" id="ColorInput1" value="daffeb" data-wheelcolorpicker />
             <input type="text" class="colorInputs" name="color" id="ColorInput2" value="f0ffdc" data-wheelcolorpicker />
             <input type="text" class="colorInputs" name="color" id="ColorInput3" value="ffe7db" data-wheelcolorpicker />
             <input type="text" class="colorInputs" name="color" id="ColorInput4" value="f3e2ff" data-wheelcolorpicker />
-            <input type="text" class="colorInputs" name="color" id="ColorInput5" value="f3e2ff" data-wheelcolorpicker />
-            <input type="text" class="colorInputs" name="color" id="ColorInput6" value="f3e2ff" data-wheelcolorpicker />
-            <input type="text" class="colorInputs" name="color" id="ColorInput7" value="f3e2ff" data-wheelcolorpicker />
+            <input type="text" class="colorInputs" name="color" id="ColorInput5" value="cdd4ff" data-wheelcolorpicker />
+            <input type="text" class="colorInputs" name="color" id="ColorInput6" value="e7fff6" data-wheelcolorpicker />
+            <input type="text" class="colorInputs" name="color" id="ColorInput7" value="f7fff5" data-wheelcolorpicker />
 
            </div>
-          <div id="buttons" data-step="4" data-intro="Press start to begin the metronome. Click anywhere to stop metronome, or press the space bar to return to this form! Enjoy! Created by Pedro Preciado.">
-            <button type="submit" id="submit-form">start</button>
+          <div id="buttons">
+            <button type="submit" id="submit-form" data-step="5" data-intro="Press start to begin the metronome. Click anywhere to stop metronome, or press the space bar to return to this form! Enjoy! Created by Pedro Preciado.">start</button>
              <button id="enterIntro">about</button>
              <script src="./node_modules/intro.js/intro.js"></script>
            </div>
            <script>
-             $("#enterIntro").click(function() {
+             $("#enterIntro").click(function(event) {
+               event.preventDefault();
                introJs().start();
              });
            </script>
 
 
           </form>
+        </div>
         </div>
       <script type="application/javascript" src="./lib/orig.js"></script>
       <!-- <script type="application/javascript" src="./lib/growing_circle.js"></script> -->
