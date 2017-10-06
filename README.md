@@ -21,6 +21,8 @@ Chromestesia was built using the following technologies and libraries:
 Users can select from a variety of colors and hues for every beat. The colors will then be displayed in full screen, along with audio feedback. Users will have the option to mute and unmute the metronome. The users will also be able to bring up the form and adjust their colors with the space bar, for quick adjustments.
 
 ![](https://raw.githubusercontent.com/pedropreciado/chromestesia/master/docs/screenshots/screenshot.png)
+![](https://raw.githubusercontent.com/pedropreciado/chromestesia/master/docs/screenshots/screenshot2.png)
+
 
 ## Future Additions
 + Select different time signatures
