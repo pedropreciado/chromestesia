@@ -7,6 +7,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
 }
 
 canvas {
@@ -18,9 +19,10 @@ canvas {
 }
 
 form {
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: rgba(255, 255, 255, .6);
   height: 80%;
   width: 80%;
@@ -43,12 +45,10 @@ form {
 .color-selectors {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  flex-flow: column;
-  float: right;
-  height: 100%;
-  width: 50%;
-
+  align-items: center;
+  flex-flow: row;
+  height: 80%;
+  width: 100%;
 }
 
 /*#color-selectors {
@@ -65,11 +65,11 @@ form {
   width: inherit;
   display: flex;
   justify-content: center;
-
 }
 
 button {
   font-size: 20px;
+  font-weight: 100;
   background: none;
   border: none;
   padding: 5px;
@@ -86,7 +86,7 @@ button:hover {
 }
 
 #ColorInput1, #ColorInput2, #ColorInput3, #ColorInput4 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 100;
   text-align: center;
   height: 100px;
@@ -104,11 +104,13 @@ button:hover {
 
 #tempo, #time-sig {
   height: 8%;
-  width: 10%;
+  width: 12%;
   margin: 3px;
   font-size: 20px;
+  font-weight: 100;
 }
 
 h1 {
   text-align: center;
+  padding-bottom: 15px;
 }
