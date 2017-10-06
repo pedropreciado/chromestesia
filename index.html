@@ -19,21 +19,39 @@
       <div class="modal-content">
         <form class="form">
           <h1 data-step="1" data-intro="Chromestesia is a songwriting tool, inspired by the metronome, that uses audio and visuals to help musicians maintain timing and tempo.">chromestesia</h1>
-            tempo: <input data-step="2" data-intro="Select tempo using the incrementor." type="number" value="120" id="tempo" /> bpm
-          <div class="color-selectors" data-step="3" data-intro="Select a color for every beat.">
 
+            tempo: <input data-step="2" data-intro="Select tempo using the incrementor." type="number" value="120" id="tempo" /> bpm
+
+            <!-- time signature: <input id="time-sig" type="number" value="4" data-step="3" data-intro="Select the number of beats per measure"> / 4
+            <button id="time-sig-submit">choose colors</button> -->
+
+          <div id="color-selectors" data-step="4" data-intro="Select a color for every beat.">
+            <!-- <input type="text" name="color" id="ColorInput" class="put" value="first color" data-wheelcolorpicker / style="display:none"> -->
             <input type="text" name="color" id="ColorInput1" value="first color" data-wheelcolorpicker />
             <input type="text" name="color" id="ColorInput2" value="second color" data-wheelcolorpicker />
             <input type="text" name="color" id="ColorInput3" value="third color" data-wheelcolorpicker />
             <input type="text" name="color" id="ColorInput4" value="fourth color" data-wheelcolorpicker />
 
            </div>
-           <button id="stop">stop</button>
-             <button type="submit" id="submit-form">submit</button>
+
+           <input type="text" name="color" id="ColorInput" class="color-input" value="first color" data-wheelcolorpicker / style="display:none">
+           <div id="buttons">
+             <button data-step="5" data-intro="Click here to start timer. Press the space bar to bring this form back! Enjoy! Created by Pedro Preciado." type="submit" id="submit-form">start</button>
+             <button id="stop">stop</button>
              <button id="enterIntro">about</button>
+           </div>
+
+           <script>
+            const addElement = () => {
+              let container = document.getElementByTagName("color-selectors");
+
+            }
+           </script>
+
              <script src="./node_modules/intro.js/intro.js"></script>
            <script>
-             $("#enterIntro").click(function() {
+             $("#enterIntro").click(function(event) {
+               event.preventDefault();
                introJs().start();
              });
            </script>
@@ -42,7 +60,11 @@
           </form>
         </div>
       </div>
-      <script type="application/javascript" src="./lib/visual.js"></script>
+      <!-- <script type="application/javascript" src="./lib/growing_circle.js"></script> -->
+      <script type="application/javascript" src="./lib/orig.js"></script>
+      <!-- <script type="application/javascript" src="./lib/color_wheel.js"></script> -->
+      <!-- <script type="text/javascript" src="./lib/options.js"></script> -->
+
       <canvas id="canvas">
   </body>
 </html>
