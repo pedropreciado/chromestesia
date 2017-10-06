@@ -51,9 +51,38 @@ form {
 
 }
 
+/*#color-selectors {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 110%;
+
+}*/
+
+#buttons {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+
+}
+
 button {
-  margin-top: 100%;
-  float: right;
+  font-size: 20px;
+  background: none;
+  border: none;
+  padding: 5px;
+  height: 22px;
+}
+
+
+button:hover {
+  color: grey;
+  transition: .2s;
+  border-radius: 0px;
+  cursor: pointer;
+  padding-bottom: 5px;
 }
 
 #ColorInput1, #ColorInput2, #ColorInput3, #ColorInput4 {
@@ -62,17 +91,21 @@ button {
   text-align: center;
   height: 100px;
   width: 100px;
-  
+
 }
 
 #ColorInput1:hover, #ColorInput2:hover, #ColorInput3:hover, #ColorInput4:hover {
   cursor: pointer;
 }
 
-#tempo {
+/*.ColorInput:hover {
+  cursor: pointer;
+}*/
+
+#tempo, #time-sig {
   height: 5%;
   width: 8%;
-  display: block;
+  margin: 3px;
 }
 
 h1 {

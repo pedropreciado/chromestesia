@@ -28,10 +28,12 @@
             <input type="text" name="color" id="ColorInput4" value="fourth color" data-wheelcolorpicker />
 
            </div>
+          <div id="buttons" data-step="4" data-intro="Press start to begin the metronome. Click anywhere to stop metronome, or press the space bar to return to this form! Enjoy! Created by Pedro Preciado.">
            <button id="stop">stop</button>
              <button type="submit" id="submit-form">submit</button>
              <button id="enterIntro">about</button>
              <script src="./node_modules/intro.js/intro.js"></script>
+           </div>
            <script>
              $("#enterIntro").click(function() {
                introJs().start();
@@ -42,7 +44,7 @@
           </form>
         </div>
       </div>
-      <script type="application/javascript" src="./lib/visual.js"></script>
+      <script type="application/javascript" src="./lib/orig.js"></script>
       <canvas id="canvas">
   </body>
 </html>
