@@ -131,6 +131,7 @@ h1 {
   height: 100px;
   width: 100px;
   transition: .6s;
+  border: none;
 }
 
 .colorInputs:hover {
